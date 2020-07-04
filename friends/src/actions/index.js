@@ -12,7 +12,7 @@ export const DELETING_FRIEND = 'DELETING_FRIEND';
 export const SINGLE_FRIEND = 'SINGLE_FRIEND';
 export const TOGGLE_UPDATE_FRIEND = 'TOGGLE_UPDATE_FRIEND';
 
-const URL = 'http://localhost:5000/api/friends';
+const URL = 'http://localhost:5555/api/friends';
 
 export const getFriends = () => {
   const friends = axios.get(`${URL}/get`);
